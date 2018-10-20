@@ -1,0 +1,35 @@
+<extends src='layout.html'>
+  <block name='title'>
+    <title>Today I Learned</title>
+  </block>
+  <block name='styles'>
+    <link rel='stylesheet' href='/css/til-index.css' type='text/css'>
+  </block>
+  <main id="til-index">
+    <block name="content">
+      <div class="page-header">
+        <h1>TIL - Today I Learned</h1>
+      </div>
+      <div class="width-wrapper">
+        <div class="til-index two-column">
+          <each loop= "category of contentful.categories">
+            <div class="{{category.fields.slug}} category">
+              <div class="highlight highlight--green"></div>
+              <div class="category__header">
+                <i class="{{category.fields.iconClass}} fa-2x"></i>
+                <a href="categories/{{category.fields.slug}}.html"><h2 class="category__title">{{category.fields.title}}</h2></a>
+              </div>
+              <ul>
+                <each loop = "item of category.fields.entries">
+                  <li>
+                    <a href="tils/{{item.fields.slug}}">{{item.fields.title}}</a>
+                  </li>
+                </each>
+              </ul>
+            </div>
+          </each>
+        </div>
+      </div>
+    </block>
+  </main>
+</extends>

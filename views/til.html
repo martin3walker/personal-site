@@ -1,0 +1,26 @@
+<extends src="layout.html">
+  <block name='title'>
+    <title>{{item.fields.title}}</title>
+  </block>
+  <block name='styles'>
+    <link rel='stylesheet' href='/css/til.css' type='text/css'>
+  </block>
+  <main id ='{{item.fields.slug}}'>
+    <block name="content">
+      <div class="til-header">
+        <h2>Published on</h2>
+        <time>{{item.fields.date}}</time>
+      </div>
+      <div class="til-container">
+        <div class="highlight highlight--green"></div>
+        <div class="til-container__text-wrapper">
+          <h1>{{item.fields.title}}</h1>
+          <p md>
+            {{item.fields.body}}
+          </p>
+          <a class="til-container__back-button" href="/til-index.html">Back to TILs</a>
+        </div>
+      </div>
+    </block>
+  </main>
+</extends>

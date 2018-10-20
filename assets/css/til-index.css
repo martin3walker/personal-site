@@ -1,0 +1,46 @@
+@import '_global';
+.til-index > div {
+  box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.til-index a {
+  color: var(--color-black);
+}
+
+.til-index a:hover {
+  color: var(--color-dark-grey);
+  background-color: var(--color-sea-green--light);
+}
+
+.til-index .javascript {
+  grid-row: 1 / span 3;
+}
+.category {
+  transition: .3s;
+}
+  .category__header {
+    display: flex;
+    padding: 2rem;
+  }
+  .category__header a {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  .category__header h2 {
+    margin: 0rem;
+  }
+  .category ul {
+    padding: 2rem;
+    margin: 0px;
+  }
+  .category li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+.active-hover {
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.6);
+  transform: translateY(-.25rem);
+  transition: .3s;
+}

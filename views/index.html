@@ -1,0 +1,49 @@
+<extends src='layout.html'>
+  <block name='title'>
+    <title>Martin Walker</title>
+  </block>
+  <block name='styles'>
+    <link rel='stylesheet' href='/css/index.css' type='text/css'>
+    <link rel='stylesheet' href='/css/preview.css' type='text/css'>
+  </block>
+  <main id='home'>
+    <block name='content'>
+      <div class="hero-section width-wrapper">
+        <each loop = "item of contentful.introduction">
+          <include src="partials/page-header.html"></include>
+        </loop>
+        <div class="introduction">
+          <div class="two-column">
+            <img src="{{contentful.introduction[0].fields.picture.fields.file.url}}" />
+            <p>
+              {{contentful.introduction[0].fields.description.content[0].content[0].value}}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section width-wrapper">
+        <div class="section__header">
+          <h2>Projects</h2>
+        </div>
+        <div class="two-column">
+          <each loop="entry of contentful.projects">
+            <include src="/partials/project-preview.html"></include>
+          </each>
+        </div>
+      </div>
+      <div class="section width-wrapper">
+        <div class="section__header">
+          <h2>TIL - Today I learned</h2>
+        </div>
+        <div class = "three-column">
+          <each loop = 'entry of contentful.introTils[0].fields.tils'>
+            <include src="partials/til-preview.html"></include>
+          </each>
+        </div>
+        <div class="section__cta-container">
+          <a href="{{contentful.introTils[0].fields.ctaSlug}}">{{contentful.introTils[0].fields.ctaText}}</a>
+        </div>
+      </div>
+    </block>
+  </main>
+</extends>

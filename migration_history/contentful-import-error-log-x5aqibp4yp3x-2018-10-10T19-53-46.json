@@ -1,0 +1,1712 @@
+[
+  {
+    "ts": "2018-10-10T17:54:35.392Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "31s5QBbVIQSaAgwckAkiKE",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.000Z",
+          "updatedAt": "2018-10-10T17:54:07.000Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Callback Example 2"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/31s5QBbVIQSaAgwckAkiKE/9c4b2c226ddf426496d57722ad9e81f3/Callback_Example_2.png",
+              "fileName": "Callback Example 2.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:54:35.451Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "cg6Y2FEPQIUIu4CkGMsUs",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:06.982Z",
+          "updatedAt": "2018-10-10T17:54:06.982Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Callstack 1"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/cg6Y2FEPQIUIu4CkGMsUs/1df0ce7f53335cbccddabc4b75f4b03e/Callstack_1.png",
+              "fileName": "Callstack 1.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:54:35.452Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "4vZpBx6Us0aqaOSwyEycY8",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.013Z",
+          "updatedAt": "2018-10-10T17:54:07.013Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Simple Project"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/4vZpBx6Us0aqaOSwyEycY8/303a1fbced4bfb131ce5b0ed20fbbe09/SImple_Server.png",
+              "fileName": "SImple Server.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:54:35.622Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "5AVAtfg6re0gmAyksQcUWE",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:06.999Z",
+          "updatedAt": "2018-10-10T17:54:06.999Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "More complicated project"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/5AVAtfg6re0gmAyksQcUWE/a904bddcd5e5c431859d06ef54b4c808/More_complicated_project.png",
+              "fileName": "More complicated project.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:00.772Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "4nW0K4ZkM08uS2QQ2QUYkW",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.727Z",
+          "updatedAt": "2018-10-10T17:54:07.727Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Mountains Pic"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/4nW0K4ZkM08uS2QQ2QUYkW/5b7685acfa23cd237612f0561f4c8b5e/Image_uploaded_from_iOS__8_.jpg",
+              "fileName": "Image uploaded from iOS (8).jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:01.195Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "W0vHkZXbaMWgAYgomI6GU",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.722Z",
+          "updatedAt": "2018-10-10T17:54:07.722Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Headshot"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/W0vHkZXbaMWgAYgomI6GU/06b88b5bc57daeb39f56452cc0f68189/profile_picture.jpg",
+              "fileName": "profile picture.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:01.204Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "2z5MlB2PGsGkCcQYeagcom",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.707Z",
+          "updatedAt": "2018-10-10T17:54:07.707Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Mobile Friendly Menu"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/2z5MlB2PGsGkCcQYeagcom/9f5c4518e7a0db453143b89a67951e4a/Screen_Shot_2018-09-29_at_3.40.41_PM.png",
+              "fileName": "Screen Shot 2018-09-29 at 3.40.41 PM.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:01.218Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "6OfR6OF5bGWqyqGyciCmWA",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.743Z",
+          "updatedAt": "2018-10-10T17:54:07.743Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Meetup Dashboard Cover"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/6OfR6OF5bGWqyqGyciCmWA/2b731232d5de29489d0d69ec923e28c7/Screen_Shot_2018-09-29_at_3.40.56_PM.png",
+              "fileName": "Screen Shot 2018-09-29 at 3.40.56 PM.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:26.401Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "7m1Oevc8X64qOO4cYUsMoC",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.811Z",
+          "updatedAt": "2018-10-10T17:54:07.811Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "IA Icon"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/7m1Oevc8X64qOO4cYUsMoC/de18e10bff52d0eb7d855892e1fa47fc/hierarchy_icon.png",
+              "fileName": "hierarchy icon.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:26.917Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "4YwJ2XahAQoo0iAQC2Iwcm",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.337Z",
+          "updatedAt": "2018-10-10T17:54:08.337Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify12"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/4YwJ2XahAQoo0iAQC2Iwcm/794c0ff1d64fee635e2ef8726f5b9a67/netlify12.jpg",
+              "fileName": "netlify12.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:26.917Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "2cXRHJyW8c8EMqkaIYAacC",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.809Z",
+          "updatedAt": "2018-10-10T17:54:07.809Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify10"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/2cXRHJyW8c8EMqkaIYAacC/71a25eee56c93931903c7b16a189ac42/netlify10.jpg",
+              "fileName": "netlify10.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:26.918Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "3HOeAbQ8Kc6GI48wQUSCuI",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.319Z",
+          "updatedAt": "2018-10-10T17:54:08.319Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify11"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/3HOeAbQ8Kc6GI48wQUSCuI/adeeb236c99617269237b291cc343f03/netlify11.jpg",
+              "fileName": "netlify11.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:51.969Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "64SX3h58qsssYOMIaqcYCS",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.311Z",
+          "updatedAt": "2018-10-10T17:54:08.311Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify5"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/64SX3h58qsssYOMIaqcYCS/4c0cf263cb419b7073ae354d86332f65/netlify5.jpg",
+              "fileName": "netlify5.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:52.416Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "1CEVP7Nwa8WCAUQ6MKoS4I",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.381Z",
+          "updatedAt": "2018-10-10T17:54:08.381Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify-12"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/1CEVP7Nwa8WCAUQ6MKoS4I/cdbcd7391bce209db668422078ff5a52/netlify-12.jpg",
+              "fileName": "netlify-12.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:52.416Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "6v9u2sei1aUcaEGi88wUUw",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.661Z",
+          "updatedAt": "2018-10-10T17:54:08.661Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify8"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/6v9u2sei1aUcaEGi88wUUw/8c2c5dd9f1a83415d6388e8078add9ad/netlify8.jpg",
+              "fileName": "netlify8.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:55:52.417Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "5sbDhZYXf2aAwQaGWqYYog",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.509Z",
+          "updatedAt": "2018-10-10T17:54:08.509Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify4"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/5sbDhZYXf2aAwQaGWqYYog/c53188a8e245e24ec3a9ad28e46bd5f3/netlify4.jpg",
+              "fileName": "netlify4.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:17.763Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "6RiFujp7tCykYc4kMeCg4O",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.939Z",
+          "updatedAt": "2018-10-10T17:54:08.939Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify6"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/6RiFujp7tCykYc4kMeCg4O/66b18a86bb20ab7ecc0ad884be3cef25/netlify6.jpg",
+              "fileName": "netlify6.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:18.013Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "lNpLXfe824wqe6cU0osUe",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.955Z",
+          "updatedAt": "2018-10-10T17:54:08.955Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify-preview-url"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/lNpLXfe824wqe6cU0osUe/771a4396234133c089386577dd85c3ec/netlify-preview-url.jpg",
+              "fileName": "netlify-preview-url.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:18.017Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "69ZKXSkpywM6I0w280oO6I",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:09.004Z",
+          "updatedAt": "2018-10-10T17:54:09.004Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify3"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/69ZKXSkpywM6I0w280oO6I/cf8b4c6e06a9ce89d452c7d6a266a0ec/netlify3.jpg",
+              "fileName": "netlify3.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:18.090Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "6u5R40vdNmmQCK00AqqUoo",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:08.932Z",
+          "updatedAt": "2018-10-10T17:54:08.932Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify2"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/6u5R40vdNmmQCK00AqqUoo/ae1548d07879865baf8f7a76f3135d92/netlify2.jpg",
+              "fileName": "netlify2.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:43.320Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "5xCWJ0pi0gm4YKWwA2WWEu",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:09.091Z",
+          "updatedAt": "2018-10-10T17:54:09.091Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "netlify1"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/5xCWJ0pi0gm4YKWwA2WWEu/5d1b46b54b6aa0ea054de1bba93a0782/netlify1.jpg",
+              "fileName": "netlify1.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:43.705Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "32xkjbBa0gYke0sokMKUIO",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:09.165Z",
+          "updatedAt": "2018-10-10T17:54:09.165Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "CSS Icon"
+          },
+          "description": {
+            "en-US": "CSS Icon"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/32xkjbBa0gYke0sokMKUIO/e6ed131000163c28a50c49233611b468/np_css_414777_F2F2F2.svg",
+              "fileName": "np_css_414777_F2F2F2.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:43.708Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "20uwq4wVf2gcy4GsigQKWq",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:09.628Z",
+          "updatedAt": "2018-10-10T17:54:09.628Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "HTML Icon"
+          },
+          "description": {
+            "en-US": "HTML Icon"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/20uwq4wVf2gcy4GsigQKWq/c00c7e02b93a72c19ca5af062a714b3f/np_html_795161_F2F2F2.svg",
+              "fileName": "np_html_795161_F2F2F2.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:56:43.768Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "6c44X1svL2qUeuWwIc88C8",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:09.632Z",
+          "updatedAt": "2018-10-10T17:54:09.632Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "JavaScript Icon"
+          },
+          "description": {
+            "en-US": "JavaScript Icon"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/6c44X1svL2qUeuWwIc88C8/c0e7ae647ae8b20e3c4a293c1bf25b7f/np_curly-brackets_870094_F2F2F2.svg",
+              "fileName": "np_curly-brackets_870094_F2F2F2.svg",
+              "contentType": "image/svg+xml"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:57:08.936Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "1MHoGCZefCO8UMiwGywsqQ",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:09.545Z",
+          "updatedAt": "2018-10-10T17:54:09.545Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Columns Reversed"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/1MHoGCZefCO8UMiwGywsqQ/07f27364b49aa971fc6756d8ef9157a9/Columns_Reversed.png",
+              "fileName": "Columns Reversed.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:57:09.417Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "4paj3fbDLG2EkggWI6SMyI",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:06.989Z",
+          "updatedAt": "2018-10-10T17:54:06.989Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Very complicated project"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/4paj3fbDLG2EkggWI6SMyI/2604ffaccb282b9d3b6e4a06ce25296a/Very_complicated_project.png",
+              "fileName": "Very complicated project.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  },
+  {
+    "ts": "2018-10-10T17:57:09.499Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "x5aqibp4yp3x"
+            }
+          },
+          "id": "1QcSo2mb84wyo0e8mA6Mum",
+          "type": "Asset",
+          "createdAt": "2018-10-10T17:54:07.004Z",
+          "updatedAt": "2018-10-10T17:54:07.004Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "0xAU1rz5uyEJ0ItTExcjsa"
+            }
+          },
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Topics Assemblies3"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.ctfassets.net/3r3os8le32yo/1QcSo2mb84wyo0e8mA6Mum/3cf69d896c948e4e06bf5b4f0b1e0fe7/Topics_Assemblies3.jpg",
+              "fileName": "Topics_Assemblies3.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-management/dist/contentful-management.node.js:10131:21",
+        "<anonymous>",
+        "process._tickCallback (internal/process/next_tick.js:188:7)"
+      ]
+    }
+  }
+]

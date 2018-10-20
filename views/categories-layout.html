@@ -1,0 +1,18 @@
+<extends src="layout.html">
+  <block name='title'>
+    <title>{{item.fields.title}}</title>
+  </block>
+  <block name='styles'>
+    <link rel='stylesheet' href='/css/preview.css' type='text/css'>
+  </block>
+  <block name='content'>
+    <include src="partials/page-header.html"></include>
+    <div class="width-wrapper">
+      <div class="three-column">
+        <each loop="entry in item.fields.entries">
+          <include src="partials/til-preview.html"></include>
+        </each>
+      </div>
+    </div>
+  </block>
+</extends>

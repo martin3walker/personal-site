@@ -1,0 +1,5 @@
+TypeError: Cannot read property 'en-US' of undefined
+    at EntryTransformAction.transformEntryForLocale (/Users/martinwalker/Development/personal-site/migrations/02-create-intro.js:13:37)
+    at EntryTransformAction.applyTo (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/built/lib/action/entry-transform.js:23:58)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

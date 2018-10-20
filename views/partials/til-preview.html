@@ -1,0 +1,27 @@
+<div class="preview">
+  <a class="preview__link" href="/tils/{{entry.fields.slug}}.html">
+    <span class="highlight highlight--green"></span>
+    <div class="information-container">
+      <div class='information-container__date'>
+        <time>
+          {{entry.fields.date}}
+        </time>
+      </div>
+      <div class="information-container__title">
+        <h2>{{entry.fields.title}}</h2>
+      </div>
+      <div class="information-container__description">
+        <if condition ="entry.fields.preview">
+          <p>
+            {{entry.fields.preview}}
+          </p>
+        </if>
+      </div>
+      <div class="preview__cta hover--green">
+        <span>
+          Read More
+        </span>
+      </div>
+    </div>
+  </a>
+</div>

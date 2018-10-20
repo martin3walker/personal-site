@@ -1,0 +1,18 @@
+<div class="preview">
+  <a class="preview__link" href="{{entry.fields.url}}" target="_blank">
+    <div class="highlight highlight--red"></div>
+    <div class="information-container">
+      <div class="information-container__title">
+        <h2>{{entry.fields.title}}</h2>
+      </div>
+      <div class="information-container__description">
+        <p>
+          {{entry.fields.description.content[0].content[0].value}}
+        </p>
+      </div>
+      <div class="preview__cta hover--red">
+        <span>See the project</span>
+      </div>
+    </div>
+  </a>
+</div>

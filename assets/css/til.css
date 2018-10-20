@@ -1,0 +1,38 @@
+@import '_global';
+
+.til-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0rem;
+}
+  .til-header h3 {
+    margin: .25rem 0 .25rem 0;
+  }
+  .til-header > time {
+    font-weight: bold;
+  }
+
+.til-container{
+  max-width: 37.5rem;
+  margin: auto;
+  line-height: 1.8;
+  background-color: var(--color-white);
+  border-radius: 16px;
+  box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+  .til-container h1 {
+    margin: .25rem 0 2rem 0;
+    text-align: center;
+  }
+  .til-container__text-wrapper{
+    padding: 2rem;
+  }
+  /*For any images rendered in the markdown*/
+  .til-container img {
+    width: 100%;
+  }
+  .til-container p {
+    font-size: 1em;
+  }
