@@ -21,6 +21,7 @@
   border-radius: 16px;
   box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.3);
   overflow: hidden;
+  line-height: 2;
 }
   .til-container h1 {
     margin: .25rem 0 2rem 0;
@@ -35,4 +36,13 @@
   }
   .til-container p {
     font-size: 1em;
+  }
+  .til-container a {
+    background-color: var(--color-sea-green--light);
+    transition: .3s;
+    text-decoration: none;
+  }
+  .til-container a:hover {
+    text-decoration: underline;
+    transition: .3s;
   }
