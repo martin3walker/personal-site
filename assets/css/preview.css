@@ -5,6 +5,7 @@
   overflow: hidden;
   border-radius: 8px;
   width: 100%;
+  height: 100%;
   transition: .3s;
   text-align: left;
   display: flex;
@@ -21,8 +22,8 @@
 .preview a {
   text-decoration: none;
   color: var(--color-black);
-  height: 100%;
   width:100%;
+  height: 100%;
   display:flex;
   flex-direction: column;
 }
