@@ -53,3 +53,17 @@
     transform: rotate(90deg);
     transition: .3s;
   }
+
+.hero-navigation {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+  .hero-navigation a {
+    color: var(--color-off-white);
+  }
+  .hero-navigation a:hover {
+    background-color: var(--color-off-white)
+  }
+  .hero-navigation > .logo {
+    border-color: var(--color-off-white);
+  }
