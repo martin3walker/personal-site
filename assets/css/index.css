@@ -1,7 +1,7 @@
 @import '_global';
 
 .hero {
-  min-height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +12,11 @@
   margin-top: -90px;
   transition: .5s;
   padding: 3rem 0rem;
+
+  @media(max-width: 53rem) {
+    height: auto;
+    min-height: 60vh;
+  }
 }
   .hero span {
     font-size: 2.5em;
