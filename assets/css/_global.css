@@ -90,6 +90,7 @@ footer a:hover {
 .width-wrapper {
   max-width: 60rem;
   margin: auto;
+  padding: 0rem .5rem;
 }
 
 .coming-soon {
@@ -97,4 +98,10 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content-wrapper{
+  @media(max-width: 53rem) {
+    padding-top: 4rem;
+  }
 }

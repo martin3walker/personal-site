@@ -64,3 +64,14 @@
 
   observer.observe(hero);
 })();
+
+(function() {
+  const navigation = document.querySelector('.navigation');
+  const controls = document.querySelector('.navigation__controls');
+
+  function activateMenu () {
+    navigation.classList.toggle('active-menu');
+  }
+
+  controls.addEventListener('click', activateMenu);
+})();

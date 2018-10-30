@@ -14,21 +14,57 @@
 
   @media(max-width: 53rem) {
     justify-content: center;
+    box-shadow: none;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    padding: 0rem;
+    width: 100%;
   }
 }
-.navigation ul {
-  display: flex;
-}
-.navigation li {
-  list-style: none;
-  margin-right: 1rem;
-}
-.navigation li:last-child {
-  margin-right: 0rem;
-}
-.navigation a:hover {
-  background-color: var(--color-navy--light);
-}
+  .navigation ul {
+    display: flex;
+    transition: .5s;
+
+    @media(max-width: 53rem) {
+      flex-direction: column;
+      text-align: center;
+      transform: translateY(-200%);
+    }
+  }
+  .navigation li {
+    list-style: none;
+    margin-right: 1rem;
+
+    @media(max-width: 53rem) {
+      margin-bottom: 1rem;
+      font-size: 1.5em;
+    }
+  }
+  .navigation li:last-child {
+    margin-right: 0rem;
+  }
+  .navigation a:hover {
+    background-color: var(--color-navy--light);
+  }
+  .navigation__controls {
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+    display: none;
+    width: 1.5rem;
+    cursor: pointer;
+
+    @media(max-width: 53rem) {
+      display: block;
+    }
+
+    @media(max-width: 560px) {
+      right: 1.5rem;
+    }
+  }
+    .navigation__controls--exit{
+      display: none;
+    }
 
 .home-navigation {
   transform: translateY(-100%);
@@ -68,10 +104,32 @@
 }
   .hero-navigation a {
     color: var(--color-off-white);
+
+    @media(max-width: 53rem) {
+      color: var(--color-black);
+    }
   }
   .hero-navigation a:hover {
-    background-color: var(--color-off-white)
+    background-color: var(--color-off-white);
+
+    @media(max-width: 53rem) {
+      background-color: var(--color-navy--light);
+    }
   }
   .hero-navigation > .logo {
     border-color: var(--color-off-white);
+  }
+
+.active-menu {
+  background-color: rgb(250, 250, 250, .95);
+}
+  .active-menu .navigation__controls--enter {
+    display: none;
+  }
+  .active-menu .navigation__controls--exit {
+    display: block;
+  }
+  .active-menu ul {
+    transform: translateY(0%);
+    transition: .5s;
   }

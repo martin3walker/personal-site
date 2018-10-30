@@ -20,16 +20,23 @@
 }
 .category {
   transition: .3s;
+  width: 100%;
+  max-width: 30rem;
 }
   .category__header {
     display: flex;
     padding: 2rem;
+    align-items: center;
   }
   .category__header a {
     margin: 0rem 0rem 0rem 1rem;
   }
   .category__header h2 {
     margin: 0rem;
+  }
+  .category__icon{
+    height: 2rem;
+    width: 2rem;
   }
   .category ul {
     padding: 2rem;

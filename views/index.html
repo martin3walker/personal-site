@@ -13,6 +13,10 @@
 </head>
 <body>
   <nav class='navigation hero-navigation'>
+    <div class="navigation__controls">
+      <img class="navigation__controls--enter" src="/img/bars-solid.svg" />
+      <img class="navigation__controls--exit" src="/img/times-solid.svg" />
+    </div>
     <a href="/index.html" class='logo'>
       <span>:)</span>
     </a>
@@ -39,34 +43,38 @@
       </div>
     </div>
 
-    <div class="section width-wrapper" id="til">
-      <div class="section__header">
-        <h2>TIL - Today I learned</h2>
-        <p>
-          Keeping track of the new things that I learn.
-        </p>
-      </div>
-      <div class= "three-column">
-        <each loop = 'entry of contentful.introTils[0].fields.tils'>
-          <include src="partials/til-preview.html"></include>
-        </each>
-      </div>
-      <div class="section__cta-container section__cta-container--green">
-        <a href="{{contentful.introTils[0].fields.ctaSlug}}">{{contentful.introTils[0].fields.ctaText}}</a>
+    <div class="width-wrapper">
+      <div class="section" id="til">
+        <div class="section__header">
+          <h2>TIL - Today I learned</h2>
+          <p>
+            Keeping track of the new things that I learn.
+          </p>
+        </div>
+        <div class= "three-column">
+          <each loop = 'entry of contentful.introTils[0].fields.tils'>
+            <include src="partials/til-preview.html"></include>
+          </each>
+        </div>
+        <div class="section__cta-container section__cta-container--green">
+          <a href="{{contentful.introTils[0].fields.ctaSlug}}">{{contentful.introTils[0].fields.ctaText}}</a>
+        </div>
       </div>
     </div>
 
-    <div class="section width-wrapper">
-      <div class="section__header">
-        <h2>Projects</h2>
-        <p>
-          A couple of things that I've built.
-        </p>
-      </div>
-      <div class="two-column">
-        <each loop="entry of contentful.projects">
-          <include src="/partials/project-preview.html"></include>
-        </each>
+    <div class="width-wrapper">
+      <div class="section">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p>
+            A couple of things that I've built.
+          </p>
+        </div>
+        <div class="two-column">
+          <each loop="entry of contentful.projects">
+            <include src="/partials/project-preview.html"></include>
+          </each>
+        </div>
       </div>
     </div>
   </div>
