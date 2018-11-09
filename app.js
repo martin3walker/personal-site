@@ -11,6 +11,7 @@ module.exports = {
     devtool: 'source-map',
     ignore: [
       '**/layout.html',
+      '**/template-project-page.html',
       '**/partials/til-preview.html',
       '**/partials/page-header.html',
       '**/partials/project-preview.html',
@@ -35,7 +36,7 @@ module.exports = {
               order:'fields.date',
             },
             template: {
-              path: 'views/til.html',
+              path: 'views/template-til-page.html',
               output: til => {
                 return `tils/${til.fields.slug}.html`;
               }
@@ -45,7 +46,7 @@ module.exports = {
             name: 'categories',
             id: 'category',
             template: {
-              path: 'views/categories-layout.html',
+              path: 'views/template-til-category.html',
               output: category => {
                 return `categories/${category.fields.slug}.html`
               }
