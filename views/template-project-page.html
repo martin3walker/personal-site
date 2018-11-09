@@ -1,0 +1,14 @@
+<extends src='layout.html'>
+  <block name='title'>
+    <title>{{item.fields.title}}</title>
+  </block>
+  <block name='styles'>
+    <link rel='stylesheet' href='/css/projects.css' type='text/css'>
+    <link rel='stylesheet' href='/css/skill-card.css' type='text/css'>
+  </block>
+  <main id="{{item.fields.title}}">
+    <block name="content">
+      
+    </block>
+  </main>
+</extends>

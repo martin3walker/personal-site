@@ -12,6 +12,7 @@ module.exports = {
     ignore: [
       '**/layout.html',
       '**/template-project-page.html',
+      '**/partials/skill-card.html',
       '**/partials/til-preview.html',
       '**/partials/page-header.html',
       '**/partials/project-preview.html',
