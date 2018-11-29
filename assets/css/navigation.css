@@ -19,6 +19,7 @@
     position: fixed;
     padding: 0rem;
     width: 100%;
+    height: 0px;
   }
 }
   .navigation ul {
@@ -122,6 +123,7 @@
 
 .active-menu {
   background-color: rgb(250, 250, 250, .95);
+  height: auto;
 }
   .active-menu .navigation__controls--enter {
     display: none;
