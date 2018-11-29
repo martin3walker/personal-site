@@ -1,0 +1,45 @@
+.book__container {
+  height: 350px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-black);
+  border-radius: 2px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.book img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book__description {
+  z-index: 100;
+  text-align: center;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.book__description:hover {
+  background: rgb(255, 255, 255, 0.7);
+  cursor: pointer;
+  opacity: 1;
+}
