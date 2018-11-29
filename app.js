@@ -80,4 +80,4 @@ module.exports = {
     babel: jsStandards()
   }
 
-  setTimeout(() => console.log(locals.contentful.introduction[0].fields.books), 3000)
+  //setTimeout(() => console.log(locals.contentful.introduction[0].fields.books), 3000)
