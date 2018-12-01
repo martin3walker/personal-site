@@ -4,7 +4,7 @@
   </block>
   <block name='styles'>
     <link rel='stylesheet' href='/css/about.css' type='text/css'>
-    <link rel='stylesheet' href='/css/book.css' type='text/css'>
+    <link rel='stylesheet' href='/css/about-content.css' type='text/css'>
   </block>
   <main id="about">
     <block name="content">
@@ -41,6 +41,21 @@
           <div class="three-column">
             <each loop="book of contentful.introduction[0].fields.books">
               <include src="/partials/_book.html"></include>
+            </each>
+          </div>
+        </div>
+      </div>
+      <div class="width-wrapper">
+        <div class="section">
+          <div class="section__header">
+            <h2>Music</h2>
+            <p>
+              What I've been listenting to lately
+            </p>
+          </div>
+          <div class="three-column">
+            <each loop="artist of spotify.items">
+              <include src="/partials/_artist.html"></include>
             </each>
           </div>
         </div>
