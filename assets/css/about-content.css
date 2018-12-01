@@ -1,12 +1,17 @@
-.book__container {
+.about-content__container {
   height: 350px;
   display: inline-block;
   text-decoration: none;
   color: var(--color-black);
   border-radius: 2px;
+  box-shadow: none;
 }
 
-.book {
+.about-content__container:hover {
+  box-shadow: none;
+}
+
+.about-content {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -16,15 +21,15 @@
   height: 100%;
 }
 
-.book img {
+.about-content img {
   position: absolute;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
-.book__description {
+.about-content__description {
   z-index: 100;
   text-align: center;
   opacity: 0;
@@ -38,8 +43,8 @@
   height: 100%;
 }
 
-.book__description:hover {
-  background: rgb(255, 255, 255, 0.7);
+.about-content__description:hover {
+  background: var(--color-off-white--light);
   cursor: pointer;
   opacity: 1;
 }

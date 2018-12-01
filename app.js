@@ -3,6 +3,7 @@ const cssStandards = require('spike-css-standards');
 const jsStandards = require('spike-js-standards');
 const markdown = require('markdown-it');
 const pageId = require('spike-page-id');
+const Records = require('spike-records');
 const env = process.env.SPIKE_ENV;
 const locals = {};
 const Contentful = require('spike-contentful');
@@ -12,10 +13,6 @@ module.exports = {
     ignore: [
       '**/layout.html',
       '**/template-project-page.html',
-      '**/partials/skill-card.html',
-      '**/partials/til-preview.html',
-      '**/partials/page-header.html',
-      '**/partials/project-preview.html',
       '**/_*',
       '**/.*',
       'readme.md',
@@ -66,6 +63,18 @@ module.exports = {
             id: 'introTils'
           }
         ]
+      }),
+      new Records ({
+        addDataTo: locals,
+        test: {data: {foo: 'bar'}},
+        spotify: { url: {
+          path: "https://api.spotify.com/v1/me/top/artists?time_range=short_term&limit=9&offset=9",
+          headers: {
+            "Accept": "application/json",
+            "Authorization": "Bearer BQDf06p0zai3GeE5BOs1kfrV_Q7dEVvHe-Biw0DDsbvQahEpjHDH9DRzfUWwRWjvo5TnKukxw_NA5xlmARtHL4nN7XSSybli-zPHI84VAeejBahvMY7i7VaRB4mDyGxrW3tphbolaUZzSqaBput8-VjIBAQr",
+            "Content-Type": "application/json"
+          }
+        }}
       })
     ],
     reshape: htmlStandards({
@@ -80,4 +89,4 @@ module.exports = {
     babel: jsStandards()
   }
 
-  setTimeout(() => console.log(locals.contentful.introduction[0].fields.books), 3000)
+  setTimeout(() => console.log(locals.spotify), 3000)

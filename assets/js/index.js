@@ -26,7 +26,6 @@
 
   let observer = new IntersectionObserver(makeVisible, options);
   function makeVisible(event) {
-    console.log(event[0])
     if(event[0].intersectionRatio > .5){
       return;
     }
