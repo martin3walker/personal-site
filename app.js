@@ -71,7 +71,7 @@ module.exports = {
           path: "https://api.spotify.com/v1/me/top/artists?time_range=short_term&limit=9&offset=9",
           headers: {
             "Accept": "application/json",
-            "Authorization": "Bearer BQDf06p0zai3GeE5BOs1kfrV_Q7dEVvHe-Biw0DDsbvQahEpjHDH9DRzfUWwRWjvo5TnKukxw_NA5xlmARtHL4nN7XSSybli-zPHI84VAeejBahvMY7i7VaRB4mDyGxrW3tphbolaUZzSqaBput8-VjIBAQr",
+            "Authorization": "Bearer BQCv-PBSsECVi1sYeMIl7TihpOmtr0sXkHZ6uBzNXY1QsqVmrrOp9lv2zZxUlwDC6Zn9Lpag6LP8EyRlEM2yDzyh-17UhxKojBgb3BMsaECrsNSK2tIKvHDcK5WaMmGQvrGsopo8r-jHfpWJA-WM2qMW8UNc",
             "Content-Type": "application/json"
           }
         }}
