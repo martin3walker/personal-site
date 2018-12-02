@@ -4,11 +4,61 @@
   </block>
   <block name='styles'>
     <link rel='stylesheet' href='/css/about.css' type='text/css'>
+    <link rel='stylesheet' href='/css/about-content.css' type='text/css'>
   </block>
   <main id="about">
     <block name="content">
-      <div class="coming-soon">
-        <h1>Coming Soon</h1>
+      <div class="width-wrapper">
+        <div class="two-column introduction">
+          <img src="{{contentful.introduction[0].fields.picture.fields.file.url}}" />
+          <div class="introduction__text">
+            <h1>{{contentful.introduction[0].fields.title}}</h1>
+            <each loop = "node of contentful.introduction[0].fields.description.content">
+              <if condition= "node.nodeType === 'paragraph'">
+                <p>
+                  <each loop= "object of node.content">
+                    <if condition= "object.nodeType === 'text'">
+                      {{object.value}}
+                    </if>
+                    <if condition= "object.nodeType === 'hyperlink'">
+                      <a href="{{object.data.uri}} "target="_blank" class="highlight--light-blue"> {{object.content[0].value}} </a>
+                    </if>
+                  </each>
+                </p>
+              </if>
+            </each>
+          </div>
+        </div>
+      </div>
+      <div class="width-wrapper">
+        <div class="section">
+          <div class="section__header">
+            <h2>Books</h2>
+            <p>
+              What I've been reading lately
+            </p>
+          </div>
+          <div class="three-column">
+            <each loop="book of contentful.introduction[0].fields.books">
+              <include src="/partials/_book.html"></include>
+            </each>
+          </div>
+        </div>
+      </div>
+      <div class="width-wrapper">
+        <div class="section">
+          <div class="section__header">
+            <h2>Music</h2>
+            <p>
+              What I've been listenting to lately
+            </p>
+          </div>
+          <div class="three-column">
+            <each loop="artist of spotify.items">
+              <include src="/partials/_artist.html"></include>
+            </each>
+          </div>
+        </div>
       </div>
     </block>
   </main>
