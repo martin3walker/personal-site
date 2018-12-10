@@ -66,12 +66,11 @@ module.exports = {
       }),
       new Records ({
         addDataTo: locals,
-        test: {data: {foo: 'bar'}},
         spotify: { url: {
-          path: "https://api.spotify.com/v1/me/top/artists?time_range=short_term&limit=9&offset=9",
+          path: "https://api.spotify.com/v1/me/top/artists?time_range=medium_term&limit=40&offset=40",
           headers: {
             "Accept": "application/json",
-            "Authorization": "Bearer BQCv-PBSsECVi1sYeMIl7TihpOmtr0sXkHZ6uBzNXY1QsqVmrrOp9lv2zZxUlwDC6Zn9Lpag6LP8EyRlEM2yDzyh-17UhxKojBgb3BMsaECrsNSK2tIKvHDcK5WaMmGQvrGsopo8r-jHfpWJA-WM2qMW8UNc",
+            "Authorization": "Bearer BQBwS-P8A9ADCe8JvlJIwJF0hH1g65VJL7m6StRGUS0206EoiJzUv0loDWaCL5roy2OAdbKIHsgT8xsg211C5ZyXf2K8i_zQ6RM52s7JuZHK12UgW8QCaQQIqX5Cey4wtfpNJVU5V1sCchfyWr56bSrgPpuW",
             "Content-Type": "application/json"
           }
         }}
