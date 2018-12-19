@@ -67,10 +67,10 @@ module.exports = {
       new Records ({
         addDataTo: locals,
         spotify: { url: {
-          path: "https://api.spotify.com/v1/me/top/artists?time_range=short_term&limit=40&offset=9",
+          path: "https://api.spotify.com/v1/me/top/artists?time_range=short_term&limit=12&offset=9",
           headers: {
             "Accept": "application/json",
-            "Authorization": "Bearer BQBwS-P8A9ADCe8JvlJIwJF0hH1g65VJL7m6StRGUS0206EoiJzUv0loDWaCL5roy2OAdbKIHsgT8xsg211C5ZyXf2K8i_zQ6RM52s7JuZHK12UgW8QCaQQIqX5Cey4wtfpNJVU5V1sCchfyWr56bSrgPpuW",
+            "Authorization": "Bearer BQD4i9W8-f2nAUTMWOBLbc_MFzeALVGjC4MxXT76g1dVdZi1JBcJ96eWWDKAof0mZBCZ-M3bhegkVHrPLbxpd8GgutAySbdcoTCKPcWnJMcfRHszgbasi7yBOlsFXYP2RkFwb0idG8be8wC-M6f-c2-fWHW1",
             "Content-Type": "application/json"
           }
         }}
@@ -88,4 +88,4 @@ module.exports = {
     babel: jsStandards()
   }
 
-  setTimeout(() => console.log(locals.spotify), 3000)
+  // setTimeout(() => console.log(locals.test), 3000)
