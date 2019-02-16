@@ -1,27 +1,37 @@
-<extends src='layout.html'>
-  <block name='title'>
+<extends src="layout.html">
+  <block name="title">
     <title>About Me</title>
   </block>
-  <block name='styles'>
-    <link rel='stylesheet' href='/css/about.css' type='text/css'>
-    <link rel='stylesheet' href='/css/about-content.css' type='text/css'>
+  <block name="styles">
+    <link rel="stylesheet" href="/css/about.css" type="text/css" />
+    <link rel="stylesheet" href="/css/about-content.css" type="text/css" />
   </block>
   <main id="about">
     <block name="content">
       <div class="width-wrapper">
         <div class="two-column introduction">
-          <img src="{{contentful.introduction[0].fields.picture.fields.file.url}}" />
+          <img
+            src="{{contentful.introduction[0].fields.picture.fields.file.url}}"
+          />
           <div class="introduction__text">
             <h1>{{contentful.introduction[0].fields.title}}</h1>
-            <each loop = "node of contentful.introduction[0].fields.description.content">
-              <if condition= "node.nodeType === 'paragraph'">
+            <each
+              loop="node of contentful.introduction[0].fields.description.content"
+            >
+              <if condition="node.nodeType === 'paragraph'">
                 <p>
-                  <each loop= "object of node.content">
-                    <if condition= "object.nodeType === 'text'">
+                  <each loop="object of node.content">
+                    <if condition="object.nodeType === 'text'">
                       {{object.value}}
                     </if>
-                    <if condition= "object.nodeType === 'hyperlink'">
-                      <a href="{{object.data.uri}} "target="_blank" class="highlight--light-blue"> {{object.content[0].value}} </a>
+                    <if condition="object.nodeType === 'hyperlink'">
+                      <a
+                        href="{{object.data.uri}} "
+                        target="_blank"
+                        class="highlight--light-blue"
+                      >
+                        {{object.content[0].value}}
+                      </a>
                     </if>
                   </each>
                 </p>
@@ -45,7 +55,7 @@
           </div>
         </div>
       </div>
-      <div class="width-wrapper">
+      <!-- <div class="width-wrapper">
         <div class="section">
           <div class="section__header">
             <h2>Music</h2>
@@ -59,7 +69,7 @@
             </each>
           </div>
         </div>
-      </div>
+      </div> -->
     </block>
   </main>
 </extends>

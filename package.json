@@ -8,6 +8,7 @@
   },
   "bugs": "https://github.com/test/test/issues",
   "dependencies": {
+    "dynamic-polyfill": "^1.1.0",
     "reshape-standard": "^3.3.0",
     "spike": "^2.3.0",
     "spike-contentful": "^3.1.1",
